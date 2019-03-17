@@ -55,13 +55,9 @@ Example structure for several assignments in no particular order:
 │   ├── fibonacci_sequence
 │   │   ├── fibonacci.js
 │   │   └── readme.md
-│   ├── pyramid_of_hashtags
-│   │   ├── index.js
-│   │   └── readme.md
-│   ├── raised_to_the_power
-│   ├── rolling_dice
-│   ├── staircase_sentence
-│   └── toggle_case
+│   └── pyramid_of_hashtags
+│       ├── index.js
+│       └── readme.md
 ├── js_functions_and_arrays
 │   ├── is_even
 │   │   ├── index.js
