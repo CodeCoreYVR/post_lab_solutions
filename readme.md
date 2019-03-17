@@ -54,23 +54,21 @@ Example structure for several assignments in no particular order:
 ├── js_basics
 │   ├── fibonacci_sequence
 │   │   ├── fibonacci.js
-│		│   └── readme.md
+│   │   └── readme.md
 │   ├── pyramid_of_hashtags
 │   │   ├── index.js
-│		│   └── readme.md
-│   └── raised_to_the_power
-│       ├── raisedToThePower.js
-│		    └── readme.md
-├── js_functions_and_arrays
-│   ├── is_even
-│   │   ├── index.js
-│		│   └── readme.md
-│   ├── zip
-│   │   ├── index.js
-│		│   └── readme.md
-│   └── merging_sets
-│       ├── index.js
-│		    └── readme.md
+│   │   └── readme.md
+│   ├── raised_to_the_power
+│   ├── rolling_dice
+│   ├── staircase_sentence
+│   └── toggle_case
+└── js_functions_and_arrays
+    ├── is_even
+    │   ├── index.js
+    │   └── readme.md
+    └── zip
+        ├── index.js
+        └── readme.md
 ├── .eslintrc.json
 ├── .gitignore
 ├── package-lock.json
