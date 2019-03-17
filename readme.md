@@ -62,13 +62,13 @@ Example structure for several assignments in no particular order:
 │   ├── rolling_dice
 │   ├── staircase_sentence
 │   └── toggle_case
-└── js_functions_and_arrays
-    ├── is_even
-    │   ├── index.js
-    │   └── readme.md
-    └── zip
-        ├── index.js
-        └── readme.md
+├── js_functions_and_arrays
+│   ├── is_even
+│   │   ├── index.js
+│   │   └── readme.md
+│   └── zip
+│       ├── index.js
+│       └── readme.md
 ├── .eslintrc.json
 ├── .gitignore
 ├── package-lock.json
