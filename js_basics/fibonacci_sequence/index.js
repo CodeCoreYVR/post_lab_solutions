@@ -1,15 +1,16 @@
-const args = process.argv.slice(2);
+const seqNum = process.argv.slice(2);
 
-if (!args[0]) {
+if (!seqNum[0]) {
     console.log("A number arguement is required");
-} else if (args[0] < 0) {
+    process.exit(1);
+} else if (seqNum[0] < 0) {
     console.log("An integer number is required.")
-} else {
-    let fib = [];
-    fib[0] = 1;
-    fib[1] = 1;
-    for (let i = 2; i < args[0]; i++) {
-        fib[i] = fib[i - 1] + fib[i - 2];
-    }
-    console.log(fib.slice(0, args[0]));
+    process.exit(1);
 }
+let fibo = [];
+fibo[0] = 1;
+fibo[1] = 1;
+for (let i = 2; i < seqNum[0]; i++) {
+    fibo[i] = fibo[i - 1] + fibo[i - 2];
+}
+console.log(fibo.slice(0, seqNum[0]));
