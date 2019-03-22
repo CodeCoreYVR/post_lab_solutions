@@ -11,4 +11,9 @@ fibo[1] = 1;
 for (let i = 2; i < seqNum[0]; i++) {
     fibo[i] = fibo[i - 1] + fibo[i - 2];
 }
-console.log(fibo.slice(0, seqNum[0]));
+
+let result = '';
+for (let element of fibo) {
+    result += element.toString() + ' ';
+}
+console.log(result);
