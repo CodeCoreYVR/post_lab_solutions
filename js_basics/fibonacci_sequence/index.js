@@ -1,12 +1,10 @@
 const seqNum = process.argv.slice(2);
 
-if (!seqNum[0]) {
-    console.log("A number arguement is required");
-    process.exit(1);
-} else if (seqNum[0] < 0) {
-    console.log("An integer number is required.")
+if (!seqNum[0] || seqNum[0] < 0) {
+    console.log("A valid number is required");
     process.exit(1);
 }
+
 let fibo = [];
 fibo[0] = 1;
 fibo[1] = 1;
