@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Public CodeCore community assignment solutions",
   "main": "''",
-  "dependencies": {},
+  "dependencies": {
+    "bundle": "^2.1.0"
+  },
   "devDependencies": {
     "eslint": "^5.15.1",
     "eslint-config-airbnb": "^17.1.0",
