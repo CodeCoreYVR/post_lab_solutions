@@ -22,8 +22,3 @@ function findDuplicates(arr) {
     }
     return output;
 }
-
-console.log(findDuplicates([1, 1, 3, 4, 5, 6, 7, 7, 7, 8, 8, 9]));
-console.log(findDuplicates(['Bob', 'Rob', 'Rob', 'a', 'b', 'c', 'b']));;
-console.log(findDuplicates(['g', 'y', 'j', 'a', 'j', 'g', 'z']));;
-
